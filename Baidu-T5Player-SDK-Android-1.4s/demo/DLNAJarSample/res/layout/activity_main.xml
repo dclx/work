@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videopathget"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="8" >
+
+
+            <TextView
+                android:id="@+id/infoTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="4"
+                android:text="information"
+                android:textSize="30px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" >
+
+            <EditText
+                android:id="@+id/getET"
+                android:layout_width="240dip"
+                android:layout_height="100dip"
+                android:layout_marginLeft="50dip"
+                android:layout_weight="5"
+                android:textSize="30px" />
+
+            <Button
+                android:id="@+id/playBtn"
+                android:layout_width="85dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1"
+                android:text="play" />
+
+            <Button
+                android:id="@+id/url_list"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="20dip"
+                android:layout_weight="1"
+                android:text="list" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

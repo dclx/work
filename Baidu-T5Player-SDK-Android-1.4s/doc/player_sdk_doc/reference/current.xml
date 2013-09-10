@@ -1,0 +1,1008 @@
+<api>
+<package name="com.baidu.cyberplayer.core"
+>
+<class name="BMediaController"
+ extends="RelativeLayout"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="BMediaController"
+ type="com.baidu.cyberplayer.core.BMediaController"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+</constructor>
+<constructor name="BMediaController"
+ type="com.baidu.cyberplayer.core.BMediaController"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+<parameter name="attrs" type="AttributeSet">
+</parameter>
+</constructor>
+<constructor name="BMediaController"
+ type="com.baidu.cyberplayer.core.BMediaController"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+<parameter name="attrs" type="AttributeSet">
+</parameter>
+<parameter name="defStyle" type="int">
+</parameter>
+</constructor>
+<method name="hide"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setPreNextListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="preListener" type="OnClickListener">
+</parameter>
+<parameter name="backListener" type="OnClickListener">
+</parameter>
+</method>
+<method name="show"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="BVideoView"
+ extends="RelativeLayout"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="BVideoView"
+ type="com.baidu.cyberplayer.core.BVideoView"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+</constructor>
+<constructor name="BVideoView"
+ type="com.baidu.cyberplayer.core.BVideoView"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+<parameter name="attrs" type="AttributeSet">
+</parameter>
+</constructor>
+<constructor name="BVideoView"
+ type="com.baidu.cyberplayer.core.BVideoView"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+<parameter name="attrs" type="AttributeSet">
+</parameter>
+<parameter name="defStyle" type="int">
+</parameter>
+</constructor>
+<method name="getCurrentPosition"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDuration"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getVideoHeight"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getVideoWidth"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="isPlaying"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="pause"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="resume"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="seekTo"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="second" type="int">
+</parameter>
+</method>
+<method name="setAKSK"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ak" type="java.lang.String">
+</parameter>
+<parameter name="sk" type="java.lang.String">
+</parameter>
+</method>
+<method name="setDecodeMode"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="mode" type="int">
+</parameter>
+</method>
+<method name="setMediaController"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="controller" type="com.baidu.cyberplayer.core.BMediaController">
+</parameter>
+</method>
+<method name="setNativeLibsDirectory"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="nativeLibsDir" type="java.lang.String">
+</parameter>
+</method>
+<method name="setOnCompletionListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="linstener" type="com.baidu.cyberplayer.core.BVideoView.OnCompletionListener">
+</parameter>
+</method>
+<method name="setOnErrorListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="linstener" type="com.baidu.cyberplayer.core.BVideoView.OnErrorListener">
+</parameter>
+</method>
+<method name="setOnInfoListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="linstener" type="com.baidu.cyberplayer.core.BVideoView.OnInfoListener">
+</parameter>
+</method>
+<method name="setOnPlayingBufferCacheListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.baidu.cyberplayer.core.BVideoView.OnPlayingBufferCacheListener">
+</parameter>
+</method>
+<method name="setOnPreparedListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="linstener" type="com.baidu.cyberplayer.core.BVideoView.OnPreparedListener">
+</parameter>
+</method>
+<method name="setOnSeekCompleteListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.baidu.cyberplayer.core.BVideoView.OnSeekCompleteListener">
+</parameter>
+</method>
+<method name="setVideoPath"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="path" type="java.lang.String">
+</parameter>
+</method>
+<method name="setVideoScalingMode"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="mode" type="int">
+</parameter>
+</method>
+<method name="showCacheInfo"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="show" type="boolean">
+</parameter>
+</method>
+<method name="start"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="stopPlayback"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="DECODE_HW"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="0"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DECODE_SW"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="1"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_DISPLAY"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="304"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_INVALID_INPUTFILE"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="302"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_IO"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-1004"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_MALFORMED"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-1007"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="200"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_NO_INPUTFILE"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="301"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_NO_SUPPORTED_CODEC"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="303"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_SERVER_DIED"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="100"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_TIMED_OUT"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-110"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_UNKNOWN"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="1"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_ERROR_UNSUPPORTED"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-1010"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_INFO_BAD_INTERLEAVING"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="800"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_INFO_BUFFERING_END"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="702"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_INFO_BUFFERING_START"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="701"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_INFO_NOT_SEEKABLE"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="801"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_INFO_UNKNOWN"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="1"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIA_INFO_VIDEO_TRACK_LAGGING"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="700"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="VIDEO_SCALING_MODE_SCALE_TO_FIT"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="1"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="2"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<interface name="BVideoView.OnCompletionListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onCompletion"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<interface name="BVideoView.OnErrorListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onError"
+ return="boolean"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="what" type="int">
+</parameter>
+<parameter name="extra" type="int">
+</parameter>
+</method>
+</interface>
+<interface name="BVideoView.OnInfoListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onInfo"
+ return="boolean"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="what" type="int">
+</parameter>
+<parameter name="extra" type="int">
+</parameter>
+</method>
+</interface>
+<interface name="BVideoView.OnPlayingBufferCacheListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onPlayingBufferCache"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="percent" type="int">
+</parameter>
+</method>
+</interface>
+<interface name="BVideoView.OnPreparedListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onPrepared"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<interface name="BVideoView.OnSeekCompleteListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onSeekComplete"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+</package>
+<package name="com.baidu.cyberplayer.utils"
+>
+<class name="VersionManager"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="getCurrentSystemCpuTypeAndFeature"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="timeout" type="int">
+</parameter>
+<parameter name="ak" type="java.lang.String">
+</parameter>
+<parameter name="sk" type="java.lang.String">
+</parameter>
+<parameter name="callback" type="com.baidu.cyberplayer.utils.VersionManager.RequestCpuTypeAndFeatureCallback">
+</parameter>
+</method>
+<method name="getCurrentVersion"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDownloadUrlForCurrentVersion"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="timeout" type="int">
+</parameter>
+<parameter name="cpuType" type="com.baidu.cyberplayer.utils.VersionManager.CPU_TYPE">
+</parameter>
+<parameter name="ak" type="java.lang.String">
+</parameter>
+<parameter name="sk" type="java.lang.String">
+</parameter>
+<parameter name="callback" type="com.baidu.cyberplayer.utils.VersionManager.RequestDownloadUrlForCurrentVersionCallback">
+</parameter>
+</method>
+<method name="getInstance"
+ return="com.baidu.cyberplayer.utils.VersionManager"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="RET_ERROR_AKSK"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="2"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RET_ERROR_NETWORK"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="1"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RET_ERROR_NOTFOUND"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="3"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RET_SUCCESS"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="0"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="VersionManager.CPU_TYPE"
+ extends="java.lang.Enum"
+ abstract="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="valueOf"
+ return="com.baidu.cyberplayer.utils.VersionManager.CPU_TYPE"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="values"
+ return="com.baidu.cyberplayer.utils.VersionManager.CPU_TYPE[]"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<interface name="VersionManager.RequestCpuTypeAndFeatureCallback"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onComplete"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="com.baidu.cyberplayer.utils.VersionManager.CPU_TYPE">
+</parameter>
+<parameter name="result" type="int">
+</parameter>
+</method>
+</interface>
+<interface name="VersionManager.RequestDownloadUrlForCurrentVersionCallback"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onComplete"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="downloadurl" type="java.lang.String">
+</parameter>
+<parameter name="result" type="int">
+</parameter>
+</method>
+</interface>
+<class name="ZipUtils"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="getInstance"
+ return="com.baidu.cyberplayer.utils.ZipUtils"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="unZip"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+<parameter name="zipFile" type="java.lang.String">
+</parameter>
+<parameter name="targetDir" type="java.lang.String">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+</class>
+</package>
+</api>

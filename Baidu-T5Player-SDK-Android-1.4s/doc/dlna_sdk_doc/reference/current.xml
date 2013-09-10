@@ -1,0 +1,915 @@
+<api>
+<package name="com.baidu.cyberplayer.dlna"
+>
+<interface name="DLNAActionListener"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onBrowse"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="result" type="java.util.List&lt;ContentItem&gt;">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onBrowseFileItems"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="result" type="java.util.List&lt;FileItem&gt;">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onDisableDLNA"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSuccess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onEnableDLNA"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSuccess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onGetMute"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="result" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onGetSupportedProtocols"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="result" type="java.lang.String">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onGetVolume"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="result" type="int">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPause"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPlay"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSeek"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSelectRenderDevice"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSuccess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSelectServerDevice"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSuccess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSetMediaURI"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSetMute"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSetVolume"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<method name="onStop"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isSucess" type="boolean">
+</parameter>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errDesc" type="java.lang.String">
+</parameter>
+</method>
+<field name="ACTION_AUTH_ERROR"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-4"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ACTION_FAILED"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="501"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ACTION_FAILURE"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-1"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ACTION_INVALID_RENDER"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-2"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ACTION_INVALID_SERVER"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-5"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ACTION_NULL_POINTER"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="-3"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ACTION_SUCCESS"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="0"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BAD_REQUEST"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="400"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CONTINUE"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="100"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INTERNAL_SERVER_ERROR"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="500"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALID_ACTION"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="401"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALID_ARGS"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="402"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALID_RANGE"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="416"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALID_VAR"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="404"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OK"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="200"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OUT_OF_SYNC"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="403"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PARTIAL_CONTENT"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="206"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PRECONDITION_FAILED"
+ type="int"
+ transient="false"
+ volatile="false"
+ value="412"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</interface>
+<interface name="DLNADeviceEventListener"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onEventReceived"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="eventType" type="com.baidu.cyberplayer.dlna.DLNAEventType">
+</parameter>
+<parameter name="eventMsg" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<class name="DLNAEventType"
+ extends="java.lang.Enum"
+ abstract="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="valueOf"
+ return="com.baidu.cyberplayer.dlna.DLNAEventType"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="values"
+ return="com.baidu.cyberplayer.dlna.DLNAEventType[]"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="DLNAProviderFactory"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="DLNAProviderFactory"
+ type="com.baidu.cyberplayer.dlna.DLNAProviderFactory"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="getProviderInstance"
+ return="com.baidu.cyberplayer.dlna.IDLNAServiceProvider"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="Context">
+</parameter>
+</method>
+<method name="getServerInstance"
+ return="IDLNAServerProvider"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<interface name="IDLNAServiceProvider"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="addActionCallBack"
+ return="boolean"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.baidu.cyberplayer.dlna.DLNAActionListener">
+</parameter>
+</method>
+<method name="addDeviceChangeListener"
+ return="boolean"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="DLNADeviceChangeListener">
+</parameter>
+</method>
+<method name="addEventListener"
+ return="boolean"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.baidu.cyberplayer.dlna.DLNADeviceEventListener">
+</parameter>
+</method>
+<method name="browser"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="objectId" type="java.lang.String">
+</parameter>
+<parameter name="filter" type="java.lang.String">
+</parameter>
+<parameter name="startIndex" type="int">
+</parameter>
+<parameter name="requestCount" type="int">
+</parameter>
+<parameter name="sortRule" type="java.lang.String">
+</parameter>
+</method>
+<method name="browserFileItems"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="objectId" type="java.lang.String">
+</parameter>
+<parameter name="filter" type="java.lang.String">
+</parameter>
+<parameter name="startIndex" type="int">
+</parameter>
+<parameter name="requestCount" type="int">
+</parameter>
+<parameter name="sortRule" type="java.lang.String">
+</parameter>
+</method>
+<method name="disableDLNA"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="enableDLNA"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getMediaDuration"
+ return="java.lang.String"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getMediaPosition"
+ return="java.lang.String"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getMuteStat"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRenderList"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRenderState"
+ return="java.lang.String"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getServerList"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSupportedProtocols"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getVolume"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="initialize"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="accessKey" type="java.lang.String">
+</parameter>
+<parameter name="secretKey" type="java.lang.String">
+</parameter>
+</method>
+<method name="pause"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="play"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="seek"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="position" type="java.lang.String">
+</parameter>
+</method>
+<method name="selectRenderDevice"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="devName" type="java.lang.String">
+</parameter>
+</method>
+<method name="selectServerDevice"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="devName" type="java.lang.String">
+</parameter>
+</method>
+<method name="setMediaURI"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="mediaURI" type="java.lang.String">
+</parameter>
+</method>
+<method name="setMuteStat"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isMute" type="boolean">
+</parameter>
+</method>
+<method name="setVolume"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="volume" type="int">
+</parameter>
+</method>
+<method name="stop"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+</package>
+</api>

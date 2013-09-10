@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/videopathget" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    
+        <CheckBox android:id="@+id/isHard" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:checked="true"
+		    android:text="Hard Decode" />
+	    
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="2"
+		    android:orientation="vertical" >
+			<Button android:id="@+id/playBtn1" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="MKV：1.87G" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn2" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="RMVB：1.1G" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn3" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="MP4:0.65G" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn4" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="FLV：0.33G" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn5" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="易世腾：CCTV3" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn6" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="易世腾：CCTV5" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn7" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="易世腾：香港资讯台" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn8" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="内测源3： 湖南卫视" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn9" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="内测源2：香港资讯台" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+			<Button android:id="@+id/playBtn10" 
+			    android:layout_width="80dip"
+				android:layout_height="wrap_content" 
+				android:text="内则源2：香港卫视" 			    
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="50dip"
+			    android:layout_weight="1"/>
+		</LinearLayout>
+     </LinearLayout>
+</RelativeLayout>
